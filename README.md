@@ -29,6 +29,11 @@ CPMAddPackage(
 
 target_link_libraries(${PROJECT_NAME} RingBuffer)
 ```
+```cmake
+add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
+# For Clion STM32 plugin generated Cmake use 
+target_link_libraries(${PROJECT_NAME}.elf StringUtils)
+```
 
 ### Usage
 Example of usage:
