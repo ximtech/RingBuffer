@@ -1,4 +1,7 @@
 # RingBuffer
+
+[![tests](https://github.com/ximtech/RingBuffer/actions/workflows/cmake-ci.yml/badge.svg)](https://github.com/ximtech/RingBuffer/actions/workflows/cmake-ci.yml)
+
 **STM32** lightweight implementation of Ring buffer.\
 Simple data structure that implements the FIFO (First-In-First-Out) ordering. 
 This simply means that the first item added to your queue is the first one out.\
