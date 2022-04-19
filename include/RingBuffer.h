@@ -8,9 +8,9 @@
 
 
 typedef struct RingBuffer *RingBufferPointer;
-typedef int RingBufferDataType;
+typedef int RingBufferDataType;                                 // set container data type 
 
-RingBufferPointer getRingBufferInstance(uint32_t bufferSize);   // get initialized byteBuffer, provide buffer type and capacity
+RingBufferPointer getRingBufferInstance(uint32_t bufferSize);   // get initialized byteBuffer, provide buffer capacity
 
 void ringBufferDelete(RingBufferPointer ringBuffer);                      // destroying the container
 void ringBufferReset(RingBufferPointer ringBuffer);                       // set pointers to zero, and the data count, causing the buffer to be "empty"
