@@ -2,6 +2,7 @@
 
 [![tests](https://github.com/ximtech/RingBuffer/actions/workflows/cmake-ci.yml/badge.svg)](https://github.com/ximtech/RingBuffer/actions/workflows/cmake-ci.yml)
 [![codecov](https://codecov.io/gh/ximtech/RingBuffer/branch/main/graph/badge.svg?token=OQSZTRV1I4)](https://codecov.io/gh/ximtech/RingBuffer)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b4678f8151b841018c23254b415d08ad)](https://www.codacy.com/gh/ximtech/RingBuffer/dashboard)
 
 **STM32** lightweight implementation of Ring buffer.\
 Simple data structure that implements the FIFO (First-In-First-Out) ordering. 
