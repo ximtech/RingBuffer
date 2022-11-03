@@ -43,7 +43,7 @@ target_link_libraries(${PROJECT_NAME}.elf RingBuffer)
 ### Usage
 Example of usage:
 ```C
-RingBufferPointer ringBuffer = getRingBufferInstance(4);
+RingBuffer ringBuffer = getRingBufferInstance(4);
 ringBufferAdd(ringBuffer, 1);
 ringBufferAdd(ringBuffer, 2);
 ringBufferAdd(ringBuffer, 3);
